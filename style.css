@@ -1,0 +1,207 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #ebeaed;
+   
+}
+.container{
+    background: #ebeaed;
+    width: 34vw;
+    margin-top: 115px;
+    margin-left: 287px;
+    margin-right: 75px;
+}
+.container img{
+    height: 110px;
+    margin: -17px -32px;
+   
+}
+.recentlogin{
+    display: flex;
+}
+.recentlogin .youracc{
+
+    height: 204px;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    width: 163px;
+}
+.recentlogin .youracc:hover{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.youracc .close{
+    position: relative;
+    cursor: pointer;
+    bottom: 109px;
+    height: 20px;
+    left: -11px;
+    border: 1px solid black;
+    width: 20px;
+    border-radius: 9px;
+    background: lightgrey;
+}
+.youracc img{
+    height: 151px;
+    position: relative;
+    bottom: -28px;
+    left: 20px;
+    width: 132px;
+}
+
+.youracc p{
+    position: relative;
+    margin-left: 31px;
+    bottom: -50px;
+}
+.recentlogin .add{
+ 
+    
+    height: 204px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 24px;
+    width: 163px;
+
+}
+.recentlogin .add:hover{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.add .close{
+    position: relative;
+    bottom: 34px;
+    cursor: pointer;
+    height: 20px;
+    left: -8px;
+    border: 1px solid black;
+    width: 20px;
+    border-radius: 9px;
+    background: lightgrey;
+}
+#ad{
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    color: #fff;
+    border-radius: 25px;
+    position: relative;
+    border: none;
+    font-size: 47px;
+    top: 65px;
+    background-color: #1877f2;
+    left: 28px;
+}
+.add p{
+    position: relative;
+    margin-left: 32px;
+    bottom: -123px;
+    color: #1877f2;
+}
+.container p{
+   margin-bottom: 30px;
+}
+.username{
+
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin-top: 150px;
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.username input{
+    display: block;
+    height: 60px;
+    font-size: 17px;
+
+    padding: 14px 16px;
+    width: 400px;
+    border: .5px solid #d8cdcd;
+    margin-bottom: 19px;
+    border-radius: 9px;
+}
+.username .btn1{
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    background: #3283ec;
+    font-weight: 600;
+    border-radius: 9px;
+    border: .5px solid #d8cdcd;
+    font-size: 21px;
+    height: 55px;
+    width: 400px;
+    margin-bottom: 19px;
+}
+.username .btn1:hover {
+    background-color: #1877f2;
+}
+.username a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 19px;
+    text-align: center;
+}
+.username a:hover{
+    text-decoration: underline;
+}
+.username .btn2{
+    display: block;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 55px;
+    padding: 0 16px;
+    color:#fff;
+    font-weight: 600;
+    font-size: 21px;
+    background: #4bc533;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.username .btn2:hover{
+    background-color: #42b72a;
+}
+.user p{
+    margin-left: 54px;
+}
+footer{
+    position:absolute;
+    background-color: #fff;
+    bottom: -150px;
+    width: 100vw;
+    padding: 50px 250px;
+    color: #a6a8aa;
+    font-size: 15px;
+    margin-top: 100px;
+    word-spacing: 15px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+footer li{
+    list-style: none;
+    display: inline;
+}
+footer .language{
+    margin-bottom: 10px;
+}
+footer .div{
+    word-spacing: 20px;
+    margin:20px 0 ;
+}
+footer .btn{
+    height: 21px;
+    width: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
